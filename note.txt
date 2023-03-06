@@ -59,3 +59,4 @@ constructor >> ngOnInit >> other methods
 
         1.2.1 - event binding  (event_name)="method()"
         1.2.2 - $ event binding (event_name)="method($event)"
+        1.2.3 - event binding with template rendering variable #variableName
