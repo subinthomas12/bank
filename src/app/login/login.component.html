@@ -6,10 +6,10 @@
     <h2 class="text-center mt-3 p-3 text-white" > Sign In</h2>
 
     <div>
-        <input #acno id="u1" name="uname" class="form-control mt-3 p-2" type="text" [placeholder]="data1">
+        <input [(ngModel)]="acno" id="u1" name="uname" class="form-control mt-3 p-2" type="text" [placeholder]="data1">
     </div>
     <div>
-        <input #psw id="p1" name="password" class="form-control mt-3 p-2" type="text" placeholder="Enter Password">
+        <input [(ngModel)]="psw" id="p1" name="password" class="form-control mt-3 p-2" type="password" placeholder="Enter Password">
     </div>
-    <button (click)="login(acno,psw)" class="btn btn-info text-center mt-4 ">Login</button>
+    <button (click)="login()" class="btn btn-info text-center mt-4 ">Login</button>
 </form>
