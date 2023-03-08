@@ -65,3 +65,39 @@ constructor >> ngOnInit >> other methods
 
         2.1 - ngModel [(ngModel)]="variable"
                  - FormsModule - module used to apply ngModel
+
+
+    Path setting In Angular
+    -----------------------
+
+    - path set in root module routing file
+    - each page need diffrent paths
+    - landing page path is empty
+
+
+    Redirection In Angular
+     -------------------
+
+     method - navigateByUrl(path)
+     class  - Router
+     module - AppRoutingModule
+
+
+
+     folder - file - class - methods
+
+     package module
+
+     Dependency Injection
+      ------------------
+      To use a method of class in another classs
+
+
+      In constructor
+            
+            accessSpecifier reference:ClassName
+
+            access specifier - private/public
+
+                                - private: can use the injecting class only in the class
+                                - public:  can use the injecting class in other classes of that file

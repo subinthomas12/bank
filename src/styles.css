@@ -1,20 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    background-image: url('./assets/pexels-tima-miroshnichenko-5912634.jpg');
+    background-image: url('./assets/World_Bank.jpeg.jpeg');
     background-size: cover;
 }
 
 header{
-    color: #FFFFFF;
+    color: #1D5890;
     height: 50px;
-    background-color:#AF9155D4;
+    background-color:#FAF9FF;
 }
 
 footer{
-    color: white;
+    color: #1D5890;
     height: 60px;
     width: 100%;
     position: fixed;
     bottom: 0;
-    background-color: #AF9155;
+    background-color: #FAF9FF;
 }
