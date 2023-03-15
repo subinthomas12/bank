@@ -107,4 +107,35 @@ constructor >> ngOnInit >> other methods
    -------------
    Its a file in angular
    All components can access the content of service file    
-        create: ng g s filename   (ng generate service filename)                          
+        create: ng g s filename   (ng generate service filename)       
+
+
+    Angular Dierectives
+     -----------------
+
+    used to manipulate DOM (document object model)
+
+        1. Component Dierectives
+
+        2. Structural Dierectives (used to change list,array etc)
+            - *ngFor
+        3. 
+
+
+    Form Validation in Angular
+     ======================
+
+     1. Template driven Form
+     2. Model driven form
+
+
+model Driven Form 
+ ---------------
+    - reactive form
+                ReactiveFormsModule - model used to build model form
+
+                -FormBuilder - class used to build model form
+
+                a model contain - form group
+                                - array
+                                - controller            

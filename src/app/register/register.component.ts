@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormBuilder } from '@angular/forms';
 import { Router } from '@angular/router';
 import { DataService } from '../services/data.service';
 
@@ -13,23 +14,33 @@ export class RegisterComponent {
   psw: any
   uname: any
 
-  constructor(private ds: DataService,private router:Router) { }
+  constructor(private ds: DataService, private router: Router, private fb: FormBuilder) { }
 
-  register() {
 
-    var acno = this.acno
-    var uname = this.uname
-    var psw = this.psw
+  // model for register form
 
-    const result = this.ds.register(acno, uname, psw)
+  registerForm = this.fb.group({
+      acno: [''],
+      psw: [''],
+      uname: ['']
 
-    if (result) {
-      alert('registered')
-      this.router.navigateByUrl("")
-    }
-    else {
-      alert('user already present')
-    }
+  })
+
+register() {
+
+  var acno = this.acno
+  var uname = this.uname
+  var psw = this.psw
+
+  const result = this.ds.register(acno, uname, psw)
+
+  if (result) {
+    alert('registered')
+    this.router.navigateByUrl("")
   }
+  else {
+    alert('user already present')
+  }
+}
 
 }

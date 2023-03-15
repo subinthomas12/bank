@@ -1,0 +1,16 @@
+
+
+h1{
+    color: #1E5B91;
+    font-weight: 600;
+}
+
+#main{
+    border-radius: 12px;
+    border: 2px solid white;
+}
+
+button{
+    font-weight: bold;
+    background-color: #2269A7;
+}

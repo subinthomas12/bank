@@ -1,21 +1,21 @@
-<div class="w-25 bg-light container">
-    <h1 class="text-center mt-5 p-5">Sign Up</h1>
+<div id="main"  class="w-50 mt-5 p-5 bg-white  bg-opacity-75 container">
+    <h1 class="text-center p-3">Sign Up</h1>
     
     <form action="">
         <div class=" mt-3 p-2 text-center">
-            <input [(ngModel)]="acno" name="acno" id="ac1" type="text" placeholder="account number">
+            <input class="form-control"  [(ngModel)]="acno" name="acno" id="ac1" type="text" placeholder="account number">
         </div>
     
         <div class=" mt-3 p-2 text-center">
-            <input [(ngModel)]="uname" name="uname" id="u1" type="text" placeholder="username">
+            <input class="form-control" [(ngModel)]="uname" name="uname" id="u1" type="text" placeholder="username">
         </div>
     
         <div class=" mt-3 p-2 text-center">
-            <input [(ngModel)]="psw" name="psw" id="p1" type="password" placeholder="Password">
+            <input class="form-control" [(ngModel)]="psw" name="psw" id="p1" type="password" placeholder="Password">
         </div>
     
         <div class=" mt-3 p-2 text-center"> 
-            <button (click)="register()"  class="btn btn-info text-center mt-4 ">Signup</button>
+            <button (click)="register()"  class="btn  text-center mt-4 ">Sign Up</button>
     
         </div>
     </form>
